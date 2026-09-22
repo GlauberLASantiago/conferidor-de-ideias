@@ -1,1 +1,173 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conferidor de Ideias</title>
+    <meta http-equiv="refresh" content="0; url=https://conferidor-de-ideias.vercel.app/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --font-title: 'Syne', sans-serif;
+        --font-body: 'Work Sans', sans-serif;
+        --color-primary: #f2d499;
+        --color-secondary: #8e6b4d;
+        --color-accent: #c45e4d;
+        --color-highlight: #5b8e7d;
+        --color-surface: #f7f5e6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        align-items: center;
+        background:
+          linear-gradient(rgba(18, 10, 38, 0.72), rgba(18, 10, 38, 0.72)),
+          url('https://raw.githubusercontent.com/GlauberLASantiago/gl-cores-fontes-e-fundos/main/abstrato/05_onda_neon_roxa_minimalista.jpg')
+            center / cover no-repeat fixed;
+        color: var(--color-surface);
+        display: flex;
+        font-family: var(--font-body);
+        justify-content: center;
+        padding: 24px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: var(--font-title);
+      }
+
+      p,
+      span,
+      a,
+      input,
+      button {
+        font-family: var(--font-body);
+      }
+
+      main {
+        backdrop-filter: blur(10px);
+        background: rgba(247, 245, 230, 0.12);
+        border: 1px solid rgba(242, 212, 153, 0.35);
+        border-radius: 24px;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+        max-width: 640px;
+        padding: 40px 32px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .eyebrow {
+        color: var(--color-primary);
+        display: inline-block;
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        color: var(--color-surface);
+        font-size: clamp(2.4rem, 6vw, 4rem);
+        line-height: 1.05;
+        margin: 0 0 16px;
+      }
+
+      p {
+        color: rgba(247, 245, 230, 0.92);
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin: 0 auto 14px;
+        max-width: 32rem;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: center;
+        margin-top: 28px;
+      }
+
+      .button {
+        background: var(--color-accent);
+        border: none;
+        border-radius: 999px;
+        color: var(--color-surface);
+        display: inline-flex;
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        min-width: 220px;
+        padding: 14px 22px;
+        text-decoration: none;
+        transition:
+          transform 0.2s ease,
+          background 0.2s ease;
+      }
+
+      .button:hover {
+        background: var(--color-highlight);
+        transform: translateY(-1px);
+      }
+
+      .secondary-link {
+        color: var(--color-primary);
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .secondary-link:hover {
+        color: var(--color-surface);
+      }
+
+      @media (max-width: 640px) {
+        main {
+          padding: 32px 22px;
+        }
+      }
+    </style>
+    <script>
+      window.location.replace('https://conferidor-de-ideias.vercel.app/');
+    </script>
+  </head>
+  <body>
+    <main>
+      <span class="eyebrow">Criativo &amp; Agência</span>
+      <h1>Redirecionando você para o novo Conferidor de Ideias</h1>
+      <p>
+        Se o redirecionamento não acontecer automaticamente, use o botão abaixo para acessar a
+        versão atual hospedada na Vercel.
+      </p>
+      <p>
+        Você também pode abrir o link manualmente caso o seu navegador esteja bloqueando o
+        redirecionamento.
+      </p>
+      <div class="actions">
+        <a class="button" href="https://conferidor-de-ideias.vercel.app/"
+          >Acessar Conferidor de Ideias</a
+        >
+        <a class="secondary-link" href="https://conferidor-de-ideias.vercel.app/"
+          >https://conferidor-de-ideias.vercel.app/</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
